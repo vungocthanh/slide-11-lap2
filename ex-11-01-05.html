@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Draw Heart</title>
+</head>
+<body>
+   <script>
+      var arr[max][max] = [
+                                 [0,0,1,1,1,0,0,0,1,1,1,0,0],
+                                 [0,1,1,1,1,1,0,1,1,1,1,1,0],
+                                 [1,1,1,1,1,1,1,1,1,1,1,1,1],
+                                 [1,1,1,1,1,1,1,1,1,1,1,1,1],
+                                 [0,1,1,1,1,1,1,1,1,1,1,1,0],
+                                 [0,0,1,1,1,1,1,1,1,1,1,0,0],
+                                 [0,0,0,1,1,1,1,1,1,1,0,0,0],
+                                 [0,0,0,0,1,1,1,1,1,0,0,0,0],
+                                 [0,0,0,0,0,1,1,1,0,0,0,0,0],
+                                 [0,0,0,0,0,0,1,0,0,0,0,0,0];
+      ]
+      var ( i = 0 ; i < max ; i++)[
+         for( j = 0 ; j < max ; j++)[
+            if(arr[i][j]){
+               document.write('*')
+            }else {
+               document.write("x")
+            }
+         ]
+      ]
+   </script>
+</body>
+</html>
